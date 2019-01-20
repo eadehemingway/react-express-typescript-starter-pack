@@ -5,7 +5,7 @@ const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
   filename: 'index.html'
 });
 module.exports = {
-  entry: __dirname + '/index.tsx',
+  entry: __dirname + '/public/index.tsx',
   module: {
     rules: [
       {
@@ -18,7 +18,7 @@ module.exports = {
 
   mode: 'development',
   output: {
-    path: __dirname + '/dist',
+    path: __dirname + '/dist/public',
     filename: 'index.bundle.js'
   },
   resolve: {
