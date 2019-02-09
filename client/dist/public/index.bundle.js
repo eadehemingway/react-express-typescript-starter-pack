@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background: pink;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"body {\\n  background: #fdc6ef;\\n  font-family: 'Press Start 2P', cursive;\\n  color: #b6fcd5;\\n}\\nh1 {\\n  width: 70%;\\n}\\n.app {\\n  margin-top: 6rem;\\n  width: 50%;\\n  padding: 2rem;\\n  height: 10rem;\\n  border: 10px solid #b6fcd5;\\n  background: #edc6ef;\\n  border-style: dashed;\\n}\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./public/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -294,7 +294,7 @@ eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar Re
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.App = function () { return React.createElement(\"h1\", null, \" My React Component\"); };\n\n\n//# sourceURL=webpack:///./public/src/components/App.tsx?");
+eval("\nObject.defineProperty(exports, \"__esModule\", { value: true });\nvar React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nexports.App = function () { return React.createElement(\"p\", { className: \"app\" }, \" My React Component\"); };\n\n\n//# sourceURL=webpack:///./public/src/components/App.tsx?");
 
 /***/ }),
 

@@ -1,3 +1,3 @@
 import * as React from 'react';
 
-export const App = () => <h1> My React Component</h1>;
+export const App = () => <p className="app"> My React Component</p>;
