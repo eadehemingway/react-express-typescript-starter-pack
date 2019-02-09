@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "es2018"],
-    "module": "commonjs", // commonjs and umd are the only two modes that can be used in both nodejs and a webbrowser
-    "target": "es5",
+    "outDir": "./dist/",
     "sourceMap": true,
-    "jsx": "react",
-    "moduleResolution": "node",
-    "allowJs": true
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react"
   },
-
-  "exclude": ["node_modules", "**/node_modules", "dist"]
+  "include": ["./public/**/*"]
 }
