@@ -11,10 +11,12 @@
     "@types/node": "^10.12.18",
     "path": "^0.12.7",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "style-loader": "^0.23.1"
   },
   "devDependencies": {
     "@types/react": "^16.7.20",
+    "css-loader": "^2.1.0",
     "@types/react-dom": "^16.0.11",
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "^3.2.0",

@@ -1,8 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: __dirname + '/index.html',
-  filename: '../index.html'
+  template: __dirname + '/public/index.html',
+  filename: 'index.html'
 });
 module.exports = {
   entry: __dirname + '/public/index.tsx',
@@ -16,6 +16,10 @@ module.exports = {
         test: /\.(ts|tsx)$/,
         loader: 'awesome-typescript-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
   },
